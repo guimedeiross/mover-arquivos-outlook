@@ -7,6 +7,6 @@ Para utilizar esse script, você copia todo o código, abre o outlook e pression
 
 Alguns Outlook, tem que habilitar a opção de executar um script, indo no regedit, no seguinte caminho:
 
-HKEY_CURRENT_USER \Software\Microsoft\Office\16.0\Outlook\Security
+HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security
 
 Criar um novo DWORD (32 bits) com o nome de EnableUnsafeClientMailRules e coloar o valor 1.
